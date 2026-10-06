@@ -30,3 +30,34 @@ The purpose of this lab is to develop hands-on cybersecurity and networking skil
 
 ## Disclaimer
 All security testing was performed on systems inside my own isolated virtual lab for educational purposes.
+
+
+
+
+
+## Lab Screenshots
+
+### Virtual Lab Setup
+I created an isolated virtual lab using Oracle VirtualBox with Kali Linux and Ubuntu.
+
+![VirtualBox Lab](images/virtualbox-lab.png)
+
+### Kali and Ubuntu Networking
+I configured a private lab network between Kali Linux and Ubuntu for testing and traffic analysis.
+
+![Kali and Ubuntu Networking](images/kali-ubuntu-networking.png)
+
+### Nmap and Wireshark Analysis
+I used Nmap to scan the Ubuntu system and Wireshark to capture and analyze the resulting network traffic.
+
+![Wireshark and Nmap](images/wireshark-nmap-capture.png)
+
+### Ubuntu Service Verification
+Nmap identified port 3389 as an RDP service. I verified on Ubuntu that the port was being used by the `xrdp` service.
+
+![Ubuntu Port Verification](images/ubuntu-port-verification.png)
+
+### ICMP Traffic Analysis
+I captured ICMP echo requests and replies between Kali Linux and Ubuntu using Wireshark.
+
+![Wireshark ICMP Capture](images/WiresharkCaptureLinux.png)
